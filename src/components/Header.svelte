@@ -1,11 +1,11 @@
 <script>
-    import logoImg from '../assets/pokeball-logo.png'
+    import logoImg from "../assets/pokeball-logo.png";
 </script>
 
 <header class="header">
     <nav>
         <a href="/">
-            <img src={logoImg} alt="" height="30" width="30">
+            <img src={logoImg} alt="" height="30" width="30" />
             Pokedex
         </a>
     </nav>
@@ -29,7 +29,7 @@
     }
 
     .header nav a {
-        color: #FFF;
+        color: #fff;
         display: flex;
         align-items: center;
         justify-content: center;
